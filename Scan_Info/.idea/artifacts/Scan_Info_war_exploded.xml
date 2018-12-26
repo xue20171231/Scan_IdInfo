@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Scan_Info:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Scan_Info_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Scan_Info" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.baidu.aip:java-sdk:4.8.0" />
+          <element id="library" level="project" name="Maven: org.json:json:20160810" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Scan_Info/web/Web" />
+    </root>
+  </artifact>
+</component>
